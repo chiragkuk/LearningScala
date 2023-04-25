@@ -2,7 +2,7 @@ import scala.io.StdIn._
 
 object RevString {
   
-  def main (args : Array[String]){
+  def main (args : Array[String])= {
    val input = readLine()
    //1st Output Changing the whole string literally i.e. "hello how are you" converted to "uoy era woh olleh"
    val output1= input.reverse
